@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Logoipsum-Landing-Page/static/css/main.6484e373.css",
+    "main.js": "/Logoipsum-Landing-Page/static/js/main.c34d8110.js",
+    "static/media/fa-solid-900.ttf": "/Logoipsum-Landing-Page/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/Logoipsum-Landing-Page/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Logoipsum-Landing-Page/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/Logoipsum-Landing-Page/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/Logoipsum-Landing-Page/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/Logoipsum-Landing-Page/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Logoipsum-Landing-Page/index.html",
+    "main.6484e373.css.map": "/Logoipsum-Landing-Page/static/css/main.6484e373.css.map",
+    "main.c34d8110.js.map": "/Logoipsum-Landing-Page/static/js/main.c34d8110.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6484e373.css",
+    "static/js/main.c34d8110.js"
+  ]
+}
