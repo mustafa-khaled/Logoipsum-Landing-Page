@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Header, About, Footer } from "./components";
+import { Header, About, Footer, Services } from "./components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<About />} />
+        <Route path="services" element={<Services />} />
       </Routes>
       <Footer />
     </div>
