@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Logoipsum-Landing-Page/static/css/main.afd65223.css",
-    "main.js": "/Logoipsum-Landing-Page/static/js/main.af166ea5.js",
+    "main.js": "/Logoipsum-Landing-Page/static/js/main.a7cf6968.js",
     "static/media/ready.png": "/Logoipsum-Landing-Page/static/media/ready.3e16d196877536b5ae35.png",
     "static/media/home.png": "/Logoipsum-Landing-Page/static/media/home.3ebe837120b5c40a688c.png",
     "static/media/fa-solid-900.ttf": "/Logoipsum-Landing-Page/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -27,10 +27,10 @@
     "static/media/fa-v4compatibility.woff2": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Logoipsum-Landing-Page/index.html",
     "main.afd65223.css.map": "/Logoipsum-Landing-Page/static/css/main.afd65223.css.map",
-    "main.af166ea5.js.map": "/Logoipsum-Landing-Page/static/js/main.af166ea5.js.map"
+    "main.a7cf6968.js.map": "/Logoipsum-Landing-Page/static/js/main.a7cf6968.js.map"
   },
   "entrypoints": [
     "static/css/main.afd65223.css",
-    "static/js/main.af166ea5.js"
+    "static/js/main.a7cf6968.js"
   ]
 }
