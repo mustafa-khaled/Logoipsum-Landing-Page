@@ -1,0 +1,17 @@
+.Footer {
+  background-color: var(--black);
+  color: var(--btn-color);
+  padding: 50px 0;
+}
+
+.Footer p {
+  margin-bottom: 10px;
+}
+
+.Footer p:not(.Footer p:nth-child(2)) {
+  text-decoration: underline;
+}
+
+.Footer a {
+  color: var(--btn-color);
+}

@@ -3,6 +3,7 @@ header {
   background-color: var(--white);
   display: flex;
   align-items: center;
+  z-index: 1000;
 }
 
 .fixed {
