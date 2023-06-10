@@ -19,7 +19,7 @@ const Links = () => {
       <ul className={`${menuActive ? styles.active : ""}`}>
         <li>
           <Link
-            to="/"
+            to="/Logoipsum-Landing-Page"
             className={activeLink === "About Me" ? styles.active : ""}
             onClick={() => handleLinkClick("About Me")}>
             About Me
