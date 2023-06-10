@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./header.module.css";
 
 const Links = () => {
-  const [activeLink, setActiveLink] = useState("About Me");
+  const [activeLink, setActiveLink] = useState("aboutMe");
   const [menuActive, setMenuActive] = useState(false);
 
   const handleLinkClick = (linkText) => {
@@ -20,8 +20,8 @@ const Links = () => {
         <li>
           <Link
             to="/"
-            className={activeLink === "About Me" ? styles.active : ""}
-            onClick={() => handleLinkClick("About Me")}>
+            className={activeLink === "aboutMe" ? styles.active : ""}
+            onClick={() => handleLinkClick("aboutMe")}>
             About Me
           </Link>
         </li>
