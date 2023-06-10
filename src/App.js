@@ -6,8 +6,8 @@ const App = () => {
     <div>
       <Header />
       <Routes>
-        <Route path="/Logoipsum-Landing-Page" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/" element={<About />} />
+        <Route path="services" element={<Services />} />
       </Routes>
       <Footer />
     </div>
