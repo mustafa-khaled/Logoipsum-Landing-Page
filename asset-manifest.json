@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/Logoipsum-Landing-Page/static/css/main.a70ff53a.css",
-    "main.js": "/Logoipsum-Landing-Page/static/js/main.95d26412.js",
+    "main.css": "/Logoipsum-Landing-Page/static/css/main.c75b52b6.css",
+    "main.js": "/Logoipsum-Landing-Page/static/js/main.e333f38d.js",
     "static/media/ready.png": "/Logoipsum-Landing-Page/static/media/ready.3e16d196877536b5ae35.png",
     "static/media/pro1.png": "/Logoipsum-Landing-Page/static/media/pro1.43aea2adc9a7b1ab4eaf.png",
+    "static/media/grid1.png": "/Logoipsum-Landing-Page/static/media/grid1.03a69d67de472f090a16.png",
     "static/media/servesses4.png": "/Logoipsum-Landing-Page/static/media/servesses4.345db42cc684ca81e9eb.png",
+    "static/media/grid4.png": "/Logoipsum-Landing-Page/static/media/grid4.70420c980ac533271772.png",
     "static/media/home.png": "/Logoipsum-Landing-Page/static/media/home.3ebe837120b5c40a688c.png",
     "static/media/pro2.png": "/Logoipsum-Landing-Page/static/media/pro2.5aa042adab4ea8605d12.png",
     "static/media/fa-solid-900.ttf": "/Logoipsum-Landing-Page/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/think.png": "/Logoipsum-Landing-Page/static/media/think.77763035a06110b97aae.png",
+    "static/media/grid2.png": "/Logoipsum-Landing-Page/static/media/grid2.7047d1e5b351b9141fd3.png",
     "static/media/servecess5.png": "/Logoipsum-Landing-Page/static/media/servecess5.f75b1ef8aa08a5d09308.png",
     "static/media/servises3.png": "/Logoipsum-Landing-Page/static/media/servises3.c97d4bee0263e8c1e3da.png",
     "static/media/fa-brands-400.ttf": "/Logoipsum-Landing-Page/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/serceses.png": "/Logoipsum-Landing-Page/static/media/serceses.b58b410da2585613f03b.png",
     "static/media/fa-solid-900.woff2": "/Logoipsum-Landing-Page/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/grid3.png": "/Logoipsum-Landing-Page/static/media/grid3.74655ef9595bda165ae4.png",
     "static/media/serveses2.png": "/Logoipsum-Landing-Page/static/media/serveses2.58e1d2ae2bda34b7d8dd.png",
     "static/media/fa-brands-400.woff2": "/Logoipsum-Landing-Page/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/one.png": "/Logoipsum-Landing-Page/static/media/one.a5af1751ae36085e30c5.png",
@@ -33,11 +37,11 @@
     "static/media/fa-v4compatibility.ttf": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Logoipsum-Landing-Page/index.html",
-    "main.a70ff53a.css.map": "/Logoipsum-Landing-Page/static/css/main.a70ff53a.css.map",
-    "main.95d26412.js.map": "/Logoipsum-Landing-Page/static/js/main.95d26412.js.map"
+    "main.c75b52b6.css.map": "/Logoipsum-Landing-Page/static/css/main.c75b52b6.css.map",
+    "main.e333f38d.js.map": "/Logoipsum-Landing-Page/static/js/main.e333f38d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a70ff53a.css",
-    "static/js/main.95d26412.js"
+    "static/css/main.c75b52b6.css",
+    "static/js/main.e333f38d.js"
   ]
 }
