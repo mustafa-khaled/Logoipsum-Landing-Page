@@ -40,6 +40,12 @@
   margin: 20px 0;
 }
 
+/* Third  */
+
+.third {
+  margin-top: var(--section-margin);
+}
+
 @media (max-width: 900px) {
   .second {
     flex-direction: column-reverse;

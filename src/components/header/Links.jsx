@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./header.module.css";
 
 const Links = () => {
-  const [activeLink, setActiveLink] = useState("About Me");
   const [menuActive, setMenuActive] = useState(false);
-
-  const handleLinkClick = (linkText) => {
-    setActiveLink(linkText);
-  };
 
   const handleMenuClick = () => {
     setMenuActive(!menuActive);
@@ -18,52 +13,22 @@ const Links = () => {
     <>
       <ul className={`${menuActive ? styles.active : ""}`}>
         <li>
-          <Link
-            to="/"
-            className={activeLink === "About Me" ? styles.active : ""}
-            onClick={() => handleLinkClick("About Me")}>
-            About Me
-          </Link>
+          <Link to="Logoipsum-Landing-Page">About Me</Link>
         </li>
         <li>
-          <Link
-            to="/services"
-            className={activeLink === "Services" ? styles.active : ""}
-            onClick={() => handleLinkClick("Services")}>
-            Services
-          </Link>
+          <Link to="/services">Services</Link>
         </li>
         <li>
-          <Link
-            to="/portfolio"
-            className={activeLink === "Portfolio" ? styles.active : ""}
-            onClick={() => handleLinkClick("Portfolio")}>
-            Portfolio
-          </Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link
-            to="/testimonials"
-            className={activeLink === "Testimonials" ? styles.active : ""}
-            onClick={() => handleLinkClick("Testimonials")}>
-            Testimonials
-          </Link>
+          <Link to="/testimonials">Testimonials</Link>
         </li>
         <li>
-          <Link
-            to="/shop"
-            className={activeLink === "Shop" ? styles.active : ""}
-            onClick={() => handleLinkClick("Shop")}>
-            Shop
-          </Link>
+          <Link to="/shop">Shop</Link>
         </li>
         <li>
-          <Link
-            to="/contact"
-            className={activeLink === "Contact" ? styles.active : ""}
-            onClick={() => handleLinkClick("Contact")}>
-            Contact
-          </Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 

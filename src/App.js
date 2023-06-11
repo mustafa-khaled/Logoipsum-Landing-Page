@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="Logoipsum-Landing-Page" element={<About />} />
         <Route path="services" element={<Services />} />
         <Route path="portfolio" element={<Portfolio />} />
       </Routes>

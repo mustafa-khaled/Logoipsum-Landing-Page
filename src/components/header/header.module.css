@@ -43,12 +43,12 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-.header_container ul li a.active:before {
+.header_container ul li a:before {
   content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 50%;
+  width: 0;
   height: 3px;
   background: linear-gradient(90deg, var(--one), var(--two));
   transform: translateX(-50%);
@@ -61,6 +61,20 @@ header {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.header_container ul li a:hover {
+  color: var(--one);
+  opacity: 0.7;
+}
+
+.header_container ul li a:hover::before {
+  width: 50%;
 }
 
 .menu_icon i {
