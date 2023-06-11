@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Header, About, Footer, Services } from "./components";
+import { Header, About, Footer, Services, Portfolio } from "./components";
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="services" element={<Services />} />
+        <Route path="portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </div>
