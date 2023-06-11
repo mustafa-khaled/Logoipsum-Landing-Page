@@ -1,8 +1,8 @@
 import styles from "./portfolio.module.css";
 
-const ThirdSection = () => {
+const SixthSection = () => {
   return (
-    <div className={`${styles.third} container`}>
+    <div className={`${styles.six} container`}>
       <div></div>
       <div></div>
       <div></div>
@@ -11,4 +11,4 @@ const ThirdSection = () => {
   );
 };
 
-export default ThirdSection;
+export default SixthSection;
