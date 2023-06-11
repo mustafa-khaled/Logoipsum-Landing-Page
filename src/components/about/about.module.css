@@ -105,16 +105,7 @@
 }
 
 .btn {
-  width: 200px;
-  height: 100px;
-  margin: 20px auto;
-  background-color: var(--btn-color);
-  color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 /* Last Section */
@@ -129,67 +120,6 @@
   background-image: url(../../assets//lovesimple.png);
   background-position: 50% 70%;
   background-size: cover;
-}
-
-.images {
-  margin: 30px auto 70px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.images div {
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.images div:first-of-type {
-  background-image: url(../../assets//one.png);
-}
-
-.images div:nth-child(2) {
-  background-image: url(../../assets/two.png);
-}
-
-.images div:nth-child(3) {
-  background-image: url(../../assets/three.png);
-}
-
-.images div:nth-child(4) {
-  background-image: url(../../assets/four.png);
-}
-
-.images div:nth-child(5) {
-  background-image: url(../../assets/five.png);
-}
-
-.images div:nth-child(6) {
-  background-image: url(../../assets/six.png);
-}
-
-.images div:nth-child(7) {
-  background-image: url(../../assets/eleven.png);
-}
-
-.images div:nth-child(8) {
-  background-image: url(../../assets/eight.png);
-}
-
-.images div:nth-child(9) {
-  background-image: url(../../assets/nine.png);
-}
-
-.images div:nth-child(10) {
-  background-image: url(../../assets/ten.png);
-}
-
-.images div:nth-child(11) {
-  background-image: url(../../assets/eleven.png);
-}
-
-.images div:nth-child(12) {
-  background-image: url(../../assets/tewelve.png);
 }
 
 .last_section p {

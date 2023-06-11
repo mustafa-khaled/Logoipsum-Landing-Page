@@ -20,6 +20,7 @@ body {
   --one: #d500f9;
   --two: #ff1744;
   --transition: 0.3s;
+  --section-margin: 100px;
 }
 
 .container {
@@ -45,4 +46,14 @@ ul {
 
 p {
   line-height: 1.6;
+}
+
+.btn {
+  padding: 25px 35px;
+  border: none;
+  outline: none;
+  background-color: var(--btn-color);
+  color: var(--white);
+  font-size: 20px;
+  text-transform: uppercase;
 }

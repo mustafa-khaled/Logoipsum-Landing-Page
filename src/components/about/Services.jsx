@@ -59,7 +59,9 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className={styles.btn}>Simplify</div>
+        <div className={styles.btn}>
+          <button className="btn">Simplify</button>
+        </div>
       </div>
     </div>
   );

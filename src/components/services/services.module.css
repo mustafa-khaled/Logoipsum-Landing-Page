@@ -1,0 +1,287 @@
+.home {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  min-height: calc(100vh - 80px);
+  color: var(--black);
+}
+
+.home img {
+  width: 450px;
+}
+
+.text {
+  width: 50%;
+}
+
+.text h1 {
+  text-transform: uppercase;
+}
+
+.text p {
+  margin: 20px 0;
+}
+
+/* Second */
+
+.second,
+.third {
+  margin-top: var(--section-margin);
+}
+
+.second div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.second div p {
+  width: 50%;
+}
+
+/* Third */
+
+.third .image_container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.third .image_container p {
+  font-weight: 500;
+}
+
+.third .image_container h2 {
+  margin: 20px 0;
+}
+
+.third_text {
+  margin-top: var(--section-margin);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.third_text p {
+  width: 50%;
+}
+
+/* Fourth Section */
+
+.fourth {
+  margin-top: var(--section-margin);
+  background-color: var(--btn-color);
+  color: var(--white);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourth_content .one {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.fourth_content .one h2 {
+  font-size: 25px;
+}
+
+.fourth_content .one div {
+  width: 60%;
+}
+
+.fourth_content .one div button {
+  margin-top: 20px;
+  padding: 20px 25px;
+  border: none;
+  outline: none;
+  color: var(--btn-color);
+  font-size: 15px;
+}
+
+/* Fiveth Section */
+.fiveth .five_text {
+  margin-top: var(--section-margin);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.fiveth .five_text p,
+.five_image div {
+  width: 50%;
+}
+
+.five_image {
+  margin-top: var(--section-margin);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.five_image div {
+  text-transform: uppercase;
+}
+
+/* six */
+.six {
+  margin-top: var(--section-margin);
+  background-image: url(../../assets/servesses4.png);
+  background-size: cover;
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.six h1 {
+  text-transform: uppercase;
+}
+
+.six p {
+  margin: 20px auto;
+}
+
+/* Seven  */
+
+.seven {
+  margin-top: var(--section-margin);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seven .seven_text {
+  width: 50%;
+}
+
+.seven .seven_text h2 {
+  text-transform: uppercase;
+}
+
+.seven .seven_text p {
+  margin: 20px 0;
+}
+
+/* galary container */
+.galary_container {
+  margin-top: var(--section-margin);
+}
+.galary_container h2 {
+  text-transform: uppercase;
+  margin: 20px 0;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .home,
+  .seven {
+    flex-direction: column;
+  }
+
+  .home img,
+  .seven img {
+    width: 90%;
+  }
+
+  .text,
+  .seven .seven_text {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Five  */
+
+  .five_image {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .five_image div {
+    width: 100%;
+  }
+
+  /* seven */
+
+  .seven img {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .third .image_container,
+  .third_text {
+    flex-direction: column;
+  }
+
+  .third .image_container div,
+  .third_text {
+    text-align: center;
+  }
+
+  .third_text h2 {
+    margin: 20px auto;
+  }
+
+  .third_text p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .second div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .second div h2 {
+    margin: 20px auto;
+  }
+  .second div p {
+    width: 100%;
+  }
+
+  /* third  */
+
+  .third .image_container img {
+    width: 100%;
+  }
+
+  /* Fourth */
+
+  .fourth_content .one {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fourth_content .one h2 {
+    margin: 20px auto;
+  }
+
+  .fourth_content .one div {
+    width: 100%;
+  }
+
+  /* Five */
+
+  .fiveth .five_text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fiveth .five_text h2 {
+    margin: 20px auto;
+  }
+
+  .five_image img,
+  .fiveth .five_text p {
+    width: 100%;
+  }
+}
