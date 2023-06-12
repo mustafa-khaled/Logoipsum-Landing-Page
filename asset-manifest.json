@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Logoipsum-Landing-Page/static/css/main.64c7a541.css",
-    "main.js": "/Logoipsum-Landing-Page/static/js/main.b13dddbc.js",
+    "main.css": "/Logoipsum-Landing-Page/static/css/main.2033fff6.css",
+    "main.js": "/Logoipsum-Landing-Page/static/js/main.91d22448.js",
     "static/media/ready.png": "/Logoipsum-Landing-Page/static/media/ready.3e16d196877536b5ae35.png",
     "static/media/pro1.png": "/Logoipsum-Landing-Page/static/media/pro1.43aea2adc9a7b1ab4eaf.png",
+    "static/media/intro.png": "/Logoipsum-Landing-Page/static/media/intro.767f0319723af024d2fe.png",
     "static/media/grid1.png": "/Logoipsum-Landing-Page/static/media/grid1.03a69d67de472f090a16.png",
     "static/media/servesses4.png": "/Logoipsum-Landing-Page/static/media/servesses4.345db42cc684ca81e9eb.png",
     "static/media/grid4.png": "/Logoipsum-Landing-Page/static/media/grid4.70420c980ac533271772.png",
     "static/media/home.png": "/Logoipsum-Landing-Page/static/media/home.3ebe837120b5c40a688c.png",
     "static/media/pro2.png": "/Logoipsum-Landing-Page/static/media/pro2.5aa042adab4ea8605d12.png",
+    "static/media/tes2.png": "/Logoipsum-Landing-Page/static/media/tes2.82b7b10a1f9e66de6ea9.png",
     "static/media/fa-solid-900.ttf": "/Logoipsum-Landing-Page/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/think.png": "/Logoipsum-Landing-Page/static/media/think.77763035a06110b97aae.png",
     "static/media/pro10.png": "/Logoipsum-Landing-Page/static/media/pro10.65d4fb6ba6aeca7a6f8a.png",
@@ -43,11 +45,11 @@
     "static/media/fa-v4compatibility.ttf": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Logoipsum-Landing-Page/index.html",
-    "main.64c7a541.css.map": "/Logoipsum-Landing-Page/static/css/main.64c7a541.css.map",
-    "main.b13dddbc.js.map": "/Logoipsum-Landing-Page/static/js/main.b13dddbc.js.map"
+    "main.2033fff6.css.map": "/Logoipsum-Landing-Page/static/css/main.2033fff6.css.map",
+    "main.91d22448.js.map": "/Logoipsum-Landing-Page/static/js/main.91d22448.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c7a541.css",
-    "static/js/main.b13dddbc.js"
+    "static/css/main.2033fff6.css",
+    "static/js/main.91d22448.js"
   ]
 }
