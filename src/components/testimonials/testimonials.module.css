@@ -1,0 +1,92 @@
+.first {
+  margin-top: var(--section-margin);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.first div {
+  width: 50%;
+}
+
+.first div span {
+  display: block;
+  margin: 30px 0;
+  font-weight: 500;
+}
+
+/* Second */
+
+.second {
+  padding: 50px 0;
+  margin-top: var(--section-margin);
+  background-image: url(../../assets//intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content h1 {
+  margin-bottom: 30px;
+}
+
+.text {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.text .one,
+.text .two {
+  width: 50%;
+}
+
+.text .one p {
+  margin: 20px 0;
+}
+
+.text .two h2 {
+  margin-top: 20px;
+}
+
+/* Third */
+.third {
+  margin: var(--section-margin) auto 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.third div {
+  width: 50%;
+}
+
+.third div p {
+  margin: 30px 0;
+}
+
+@media (max-width: 800px) {
+  .first,
+  .text,
+  .third {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .first h1 {
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .first div,
+  .text .one,
+  .text .two,
+  .third div {
+    width: 100%;
+  }
+  .third img {
+    margin-top: 30px;
+    width: 90%;
+  }
+}
