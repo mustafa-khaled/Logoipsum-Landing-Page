@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Logoipsum-Landing-Page/static/css/main.2033fff6.css",
-    "main.js": "/Logoipsum-Landing-Page/static/js/main.91d22448.js",
+    "main.css": "/Logoipsum-Landing-Page/static/css/main.9875dc24.css",
+    "main.js": "/Logoipsum-Landing-Page/static/js/main.1ca93c64.js",
     "static/media/ready.png": "/Logoipsum-Landing-Page/static/media/ready.3e16d196877536b5ae35.png",
     "static/media/pro1.png": "/Logoipsum-Landing-Page/static/media/pro1.43aea2adc9a7b1ab4eaf.png",
     "static/media/intro.png": "/Logoipsum-Landing-Page/static/media/intro.767f0319723af024d2fe.png",
@@ -45,11 +45,11 @@
     "static/media/fa-v4compatibility.ttf": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Logoipsum-Landing-Page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Logoipsum-Landing-Page/index.html",
-    "main.2033fff6.css.map": "/Logoipsum-Landing-Page/static/css/main.2033fff6.css.map",
-    "main.91d22448.js.map": "/Logoipsum-Landing-Page/static/js/main.91d22448.js.map"
+    "main.9875dc24.css.map": "/Logoipsum-Landing-Page/static/css/main.9875dc24.css.map",
+    "main.1ca93c64.js.map": "/Logoipsum-Landing-Page/static/js/main.1ca93c64.js.map"
   },
   "entrypoints": [
-    "static/css/main.2033fff6.css",
-    "static/js/main.91d22448.js"
+    "static/css/main.9875dc24.css",
+    "static/js/main.1ca93c64.js"
   ]
 }
