@@ -1,0 +1,55 @@
+.input_holder {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input_holder label {
+  display: block;
+  margin: 20px 0 10px;
+  color: var(--text-header);
+}
+
+.input_holder input,
+.input_holder textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid var(--text-header);
+  outline: none;
+}
+
+.input_holder textarea {
+  resize: none;
+  height: 100px;
+}
+
+.error {
+  color: rgba(241, 79, 79, 0.945);
+}
+
+.input_holder .btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--text-header);
+  color: var(--white);
+  border: 1px solid var(--text-header);
+}
+
+.input_holder .btn:hover {
+  color: var(--text-header);
+  background-color: var(--white);
+}
+
+@media (max-width: 300px) {
+  .input_holder input,
+  .input_holder textarea {
+    width: 250px;
+  }
+}

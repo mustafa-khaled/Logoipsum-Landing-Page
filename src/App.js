@@ -6,6 +6,7 @@ import {
   Services,
   Portfolio,
   Testimonials,
+  Contact,
 } from "./components";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="services" element={<Services />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="testimonials" element={<Testimonials />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

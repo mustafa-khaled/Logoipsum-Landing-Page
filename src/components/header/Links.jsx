@@ -24,9 +24,7 @@ const Links = () => {
         <li>
           <Link to="/testimonials">Testimonials</Link>
         </li>
-        <li>
-          <Link to="/shop">Shop</Link>
-        </li>
+
         <li>
           <Link to="/contact">Contact</Link>
         </li>
